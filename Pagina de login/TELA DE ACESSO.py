@@ -3,6 +3,7 @@ import webbrowser
 
 def abrir_youtube():
     webbrowser.open("https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0")
+    master.destroy()
 
 master = Tk()
 master.title("Portal de alunos")
